@@ -1,8 +1,9 @@
 name: nightly build at 11pm
 
 on:
-  schedule:
-    - cron: '55 12 * * *'
+  workflow_dispatch:
+#  schedule:
+#    - cron: '55 12 * * *'
 
 jobs:
   nightly_build:
